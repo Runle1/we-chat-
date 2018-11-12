@@ -1,0 +1,15 @@
+
+<swiper autoplay='{{true}}' indicator-dots="{{true}}">
+<swiper-item wx:for="{{datalist}}" wx:key="{{index}}">
+<image src="{{item.imageUrl}}" mode="aspecFill"></image>
+</swiper-item>
+</swiper>
+
+<view wx:for="{{datalist}}" wx:key="{{index}}">
+<!-- {{item.name}} -->
+</view>
+
+<view wx:for="{{imglist}}" wx:key="{{imglist}}" class="imglist" bindtap='handleClick' data-id="{{item.id}}">
+<image src="{{item.cover.origin}}" class="img1"></image>
+  <view class="wenzi">{{item.name}}</view>
+</view>

@@ -1,0 +1,6 @@
+<!--pages/detail/detail.wxml-->
+
+<view wx:for="{{detaillist}}" wx:key="{{index}}">
+{{item.synopsis}}
+{{item.name}}
+</view>

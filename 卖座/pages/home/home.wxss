@@ -1,0 +1,32 @@
+/* pages/home/home.wxss */
+page{
+  background: rgb(240, 237, 237);
+  padding: 0;
+  margin: 0;
+}
+image{
+  display: block;
+}
+image{
+  width: 100%;
+  height: 100%;
+}
+swiper{
+  width: 100%;
+  height:400rpx;
+}
+.imglist{
+  width: 90%;
+  padding: 45rpx;
+}
+.img1{
+  width: 675rpx;
+  height: 400rpx;
+}
+.wenzi{
+  background: white;
+  padding: 45rpx;
+  font-size:12px;
+  text-align: left;
+
+}
